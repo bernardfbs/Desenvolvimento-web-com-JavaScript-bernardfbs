@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>DigiTrop - Soluções Digitais</title>
+  <link href="/css/style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="/css/drawer.css">
+  <link rel="stylesheet" href="/css/cards.css">
+  <link rel="stylesheet" href="/css/slider.css">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+</head>
+  <body>
+    <!-- app-bar inicio -->
+<div id="appbar">
+  <div class="appbar-esquerda">
+    <img src="imagens/digitrop-green.png" class="appbar-logo" href="/index.html">  
+  </div>
+
+  <div class="appbar-direita">
+  </div>
+<input type="image" id="app-bar-open-drawer-button" class="app-bar-open-drawer-button" src="imagens/burgermenu_w.svg" onclick="myFunction()">
+      
+</div>
+    
+<!-- app-bar fim -->
+ <!-- drawer inicio -->
+  <aside id="myDropdown" class="dropdown-content">
+    <a href="index.html" class="link-link" >
+      Home
+    </a>
+    <a href="solucoes.html" class="link-link">
+      Soluções
+    </a>
+    <a href="form.html" class="link-link">
+      Contato
+    </a>
+  </aside>
+  <!-- drawer fim -->
+
+    
+  <!-- cabecalho inicio -->
+<header>
+<div class="header"><h1>Pequenas soluções, grandes resultados.</h1></div>
+
+<div class="slider">
+  <div class="slider--controls">
+    <div class="slider--control" onclick = "goPrev()"> <center><</center></div>
+    <div class="slider--control" onclick = "goNext()"> <center>></center> </div>
+  </div>
+    <div class = "slider--width">
+      <div class = "slider--item" style="background-image: url('imagens/slide-react1.jpeg');"><span class="texto--slider">Soluções digitais tropicalizadas</span></div>
+      <div class = "slider--item" style="background-image: url('imagens/slide-react2.jpeg');"><span class="texto--slider">Comercial, Supply Chain</span></div>
+      <div class = "slider--item" style="background-image: url('imagens/slide-react3.jpeg');"><span class="texto--slider">Tecnologia do front ao back-end</span></div>
+        </div>
+      </header>
+        <!-- cabecalho fim -->
+      <div class="footer">
+  <p>Bernard Freire 2023, todos os direitos reservados</p>          </div>
+<script src="/js/drawer.js"></script>
+    <script src="/js/slider.js"></script>
+    <script src="/js/cards.js"></script>
+    
+</body>
+
+</html>

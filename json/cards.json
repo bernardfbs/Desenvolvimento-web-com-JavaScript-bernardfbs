@@ -1,0 +1,23 @@
+ [
+{
+    "thumbnail": "imagens/dashsupply.jpeg",
+    "title": "Supply Chain",
+    "text": "CONTROLE DE ESTOQUE, NCM, PART NUMBERS"
+  },
+  {
+    "thumbnail":  "imagens/dashmkt.jpeg",
+    "title": "Marketing",
+    "text": "ANÁLISE DE MERCADO, RECEITA, DESPESA"
+  },
+  {
+     "thumbnail": "imagens/dashsales.jpeg",
+    "title":  "Vendas",
+    "text":  "DASHBOARDS, CRM, BANCO DE DADOS DE CLIENTES"
+  },
+  {
+    "thumbnail": "imagens/dashcost.jpeg",
+    "title": "Custos",
+    "text": "FORMAÇÃO DE CUSTOS, MATÉRIA-PRIMA, MARGEM DE VENDAS"
+  }
+]
+

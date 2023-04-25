@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>DigiTrop - Soluções Digitais</title>
+  <link href="/css/style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="/css/drawer.css">
+  <link rel="stylesheet" href="/css/cards.css">
+  <link rel="stylesheet" href="/css/slider.css">
+   <link rel="stylesheet" href="/css/demos.css">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+</head>
+  <body>
+    <!-- app-bar inicio -->
+<div id="appbar">
+  <div class="appbar-esquerda">
+    <img src="imagens/digitrop-green.png" class="appbar-logo" href="/index.html">  
+  </div>
+
+  <div class="appbar-direita">
+  </div>
+<input type="image" id="app-bar-open-drawer-button" class="app-bar-open-drawer-button" src="imagens/burgermenu_w.svg" onclick="myFunction()">
+      
+</div>
+<!-- app-bar fim -->
+ <!-- drawer inicio -->
+<aside id="myDropdown" class="dropdown-content">
+    <a href="index.html" class="link-link" >
+      Home
+    </a>
+    <a href="solucoes.html" class="link-link">
+      Soluções
+    </a>
+    <a href="form.html" class="link-link">
+      Contato
+    </a>
+  </aside>
+  <!-- drawer fim -->
+
+  <!-- instagram inicio -->
+  <section id="instagram-section" class="instagram-section">
+    <div id="instagram-grid" class="instagram-grid">
+
+    </div>
+    <div id="instagram-backdrop" class="instagram-backdrop">
+      <div id="instagram-modal" class="instagram-modal">
+        <img class="instagram-modal-image" id="instagram-modal-image"
+          src="https://i.pinimg.com/564x/58/83/63/588363427a3b3db8f4569f205c51ef85--cute-backgrounds-wallpaper-backgrounds.jpg">
+        <div class="instagram-modal-content">
+          <h3 class="instagram-modal-title" id="instagram-modal-title"></h3>
+          <p class="instagram-modal-text" id="instagram-modal-text"></p>
+        </div>
+        <div class="instagram-modal-actions">
+        
+          <button id="instagram-modal-close-button" class="instagram-modal-actions-button">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- instagram fim -->
+    <!-- demos início -->
+ <div class = "demos">
+   <a href="js_estoque.html" target="_blank">
+      Supply Chain - Demonstração de Estoque
+    </a>
+    <a href="js_clientes.html" target="_blank">
+      Comercial - Demonstração de Cadastro de Clientes
+    </a>
+ </div>
+
+    
+ <div class="footer">
+  <p>Bernard Freire 2023, todos os direitos reservados</p>
+</div>
+      <script src="/js/drawer.js"></script>
+    <script src="/js/slider.js"></script>
+    <script src="/js/cards.js"></script>
+</body>
+
+</html>

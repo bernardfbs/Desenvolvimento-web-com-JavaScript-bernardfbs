@@ -1,0 +1,73 @@
+a {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+a:hover{
+  color:black;
+       }
+
+.app-bar-open-drawer-button {
+  width: 20px;
+  height: 20px;
+  padding: 8px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(47, 117, 5);
+
+}
+
+.app-bar-open-drawer-button:hover {
+  background-image: linear-gradient(to top, rgb(47, 117, 5) 0%, rgb(38, 62, 15) 100%);
+
+}
+
+.app-bar-open-drawer-button img {
+  width: 60%;
+
+}
+
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #3e8e41;
+}
+
+.dropdown {
+  float: right;
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: fixed;
+  background-color: rgb(47, 117, 5);
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  right: 0;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 6px 6px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {
+  color: black}
+
+.show {display: block;}
+
+}
