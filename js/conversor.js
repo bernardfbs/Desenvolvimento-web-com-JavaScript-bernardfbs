@@ -1,4 +1,4 @@
-/* const medida = prompt("Escreva a medida em metros")
+const medida = prompt("Escreva a medida em metros")
 
 const unidade = prompt(
   "para qual unidade de medida deseja converter?" +
@@ -34,4 +34,3 @@ switch (unidade) {
   default: 
 alert ("Opção inválida")
 }
-*/
