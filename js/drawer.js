@@ -1,11 +1,10 @@
 
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
+// Ao clique do usuário, menu abre
 function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
 }
 
-// Close the dropdown menu if the user clicks outside of it
+// Fecha o dropdown menu
 window.onclick = function(event) {
   if (!event.target.matches('.app-bar-open-drawer-button')) {
     let dropdowns = document.getElementsByClassName("dropdown-content");
